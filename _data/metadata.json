@@ -1,0 +1,15 @@
+{
+  "title": "E-WORM CLUB",
+  "url": "https://e-worm.club/",
+  "description": "a club for e-worms",
+  "feed": {
+    "subtitle": "a club for e-worms",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://e-worm.club/"
+  },
+  "author": {
+    "name": "E-WORM CLUB",
+    "email": "zach@anemon.es"
+  }
+}

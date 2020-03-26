@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+  </head>
+  <body>
+    <main{% if templateClass %} class="{{ templateClass }} stack"{% endif %}>
+      {{ content | safe }}
+    </main>
+    <footer class="cluster">
+      <div>
+        <a href="/feed/feed.xml">rss is cool</a>
+        <p>🐛</p>
+        <a href="/club">WHO THE FUCK IS E-WORM CLUB</a>
+        <p>🐛</p>
+        <a href="https://e-worm.club" target="_blank">real e-worm club</a>
+        <p>🐛</p>
+        <a href="https://are.na/sisters-group" target="_blank">are.na</a>
+        <p>🐛</p>
+        <a href="https://twitter/ewormclub" target="_blank">tw</a>
+        <p>🐛</p>
+        <p>@ewormclub on tiktok</p>
+      </div>
+    </footer>
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+</html>
