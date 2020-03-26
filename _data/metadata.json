@@ -5,7 +5,7 @@
   "feed": {
     "subtitle": "a club for e-worms",
     "filename": "feed.xml",
-    "path": "/feed/feed.xml",
+    "path": "/feed.xml",
     "id": "https://e-worm.club/"
   },
   "author": {
