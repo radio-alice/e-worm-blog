@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 3
 ---
 
-Yeah we're just a bunch of e-worms also we have a club: [anemon.es](https://anemon.es), [juhig](https://juhigupta.com), [cdg](https://chrisduanegood.com), [Jhs](https://jeffrey.design). Darren and Ella and Lou are too poor too have website so give them one pitying kiss (each).
+Yeah we're just a bunch of e-worms also we have a club: [anemon.es](https://anemon.es), [juhig](https://juhigupta.com), [cdg](https://chrisduanegood.com), [Jhs](https://jeffrey.design). Pule, Darren, Ella and Lou are too poor too have website so give them one pitying kiss (each).
